@@ -11,7 +11,11 @@ def batch_badge_creator(name)
 end
 
 def assign_rooms(speakers)
-  list_of_messages
+  list_of_messages = []
+  rooms = [1, 2, 3, 4, 5, 6, 7]
+  count = 0 
+  while count < speakers.length 
+  list_of_messages << "Hello, "
 
   
   
