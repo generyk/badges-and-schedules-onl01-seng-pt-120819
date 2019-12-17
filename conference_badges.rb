@@ -10,7 +10,8 @@ def batch_badge_creator(name)
   speakers
 end
 
-def assign_rooms()
+def assign_rooms(speakers)
+  
 
   
   
