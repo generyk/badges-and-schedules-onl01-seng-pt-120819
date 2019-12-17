@@ -11,7 +11,7 @@ def batch_badge_creator(name)
 end
 
 def assign_rooms(speakers)
-  
+  list_of_messages
 
   
   
