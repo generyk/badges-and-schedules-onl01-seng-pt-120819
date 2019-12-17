@@ -15,7 +15,13 @@ def assign_rooms(speakers)
   rooms = [1, 2, 3, 4, 5, 6, 7]
   count = 0 
   while count < speakers.length 
-  list_of_messages << "Hello, "
+  list_of_messages << "Hello, #{speakers[count]}! You'll be assigned to room #{rooms[count]}!"
+  count += 1 
+end
+list_of_messages
+end
+
+
 
   
   
