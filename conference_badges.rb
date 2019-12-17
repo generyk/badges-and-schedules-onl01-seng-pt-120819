@@ -3,6 +3,7 @@ def badge_maker(name)
 end
 
 def assign_rooms(number)
+  counter = 1 
   
   
   
