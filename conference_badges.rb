@@ -21,6 +21,14 @@ end
 list_of_messages
 end
 
+def printer(attendees)
+  batch_badge_creator(attendees).each do |s|
+    puts s
+  end
+  assign_rooms(attendees).each do |s|
+    puts s 
+  end
+end
 
 
   
