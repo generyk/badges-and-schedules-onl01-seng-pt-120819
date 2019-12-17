@@ -4,6 +4,6 @@ end
 
 def assign_rooms(number)
   counter = 1 
-  
+  while counter 
   
   
